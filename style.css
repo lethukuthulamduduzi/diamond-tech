@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700&display=swap');
+
+/* font-family: 'Roboto Serif', serif; */
+
+h1, h2, h3, p, a, .btn{
+    font-family: 'Roboto Serif', serif;
+}
+
+/* Hero Section Begins */
+
+.hero{
+    margin-top: 150px;
+}
+
+.col-md-6:nth-child(1) {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.main-heading{
+    font-size: 4rem;
+}
+
+.main-desc{
+    font-size: 1.3rem;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+/* Hero Section Ends */
+
+/* About Section Starts */
+.about-us{
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.about-us .row-height{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+/* About Section Ends */
